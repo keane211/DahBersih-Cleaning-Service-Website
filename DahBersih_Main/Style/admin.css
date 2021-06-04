@@ -1,0 +1,89 @@
+﻿body {
+    position: relative;
+    color: #003f69 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Welcom admin section*/
+
+.Welcom-admin {
+    margin-top: 140px;
+}
+
+.admin-section{
+    margin-top: 80px;
+}
+/*admin nav bar*/
+.admin-navbar {
+    padding: 10px 35px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: white;
+}
+
+
+.admin-navbar .nav-link {
+    color: #003f69;
+    font-size: 20px;
+}
+
+.admin-navbar .nav-link:hover {
+    color: #218ad0;
+}
+
+
+    .admin-item-content {
+        text-align: left;
+        margin: 0px 3em;
+        padding: 90px 30px;
+    }
+
+/*admin tables styiling*/
+.admin-item-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.admin-item-table td, .customers-item-table th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.admin-item-table tr:first-of-type {
+    border-bottom: 4px solid white;
+}
+
+.admin-item-table tr:nth-child(even) {
+    background-color: #e6f2f7;
+}
+
+.admin-item-table tr:hover {
+    background-color: #ddd;
+}
+
+.admin-item-table th {
+    padding: 12px 10px;
+    text-align: left;
+    background-color: #003f69;
+    color: white;
+}
+
+.admin-drop-list{
+    padding: 30px 0px;
+}
+
+.admin-btn-primary {
+    background-color: #003f69;
+    border-color: #003f69;
+    border-radius: 50px!important;
+    color: white;
+    padding: 5px 20px;
+}
+
+.body add-service {
+    background: #e6f2f7!important;
+    justify-content: center;
+
+}

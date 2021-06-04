@@ -1,0 +1,31 @@
+﻿body {
+    background-color: #e6f2f7!important;
+    text-align: center;
+    font-size: 25px;
+}
+
+.admin-btn-primary {
+    margin: auto;
+    background-color: #003f69;
+    border-color: #003f69;
+    border-radius: 50px !important;
+    font-size: 18px;
+    color: white;
+    padding: 15px 20px;
+    position: center;
+    width: 20%;
+}
+
+.add-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.items{
+    margin:auto;
+    font-size: 18px;
+    width: 25%;
+    padding: 7px;
+}
+
